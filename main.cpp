@@ -19,7 +19,7 @@ int getProcId(const char *target) {
 
 int main(int argc, char *argv[]) {
     if (argc != 3) {
-        std::cerr << "Usage: " << argv[0] << " <processName> <dllName>" << std::endl;
+        std::cerr << "Usage: " << argv[0] << " <processName> <dllPath>" << std::endl;
         return 1;
     }
 
